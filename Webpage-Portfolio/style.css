@@ -1,0 +1,93 @@
+/* css style settings for entire html page */
+html{
+  box-sizing: border-box;
+}
+
+/* css style settings for all content in entire html page */
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+/* css style settings for all content font in entire html page */
+*{
+  font-family: Helvetica;
+}
+
+/* css style settings for background color for entire html body */
+body{
+  background-color: cadetblue;
+}
+
+/* css style settings for entire main container of html page */
+main{
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: cadetblue;
+}
+
+/* css style settings for first section container of first div container of the main container of html page */
+main > div > section{
+  margin-top: 0px;
+}
+
+/* css style settings for the header and footer containers of the html page */
+header, footer {
+  text-align: center;
+  color: black;
+  background-color: slategray;
+  font-family: Helvetica;
+}
+
+/* css style setting for first line of header */
+header h1{
+  font-size: 36px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+/* css style settings for footer content */
+footer h3{
+  height: 25px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+/* css style settings for header2 throughout entire html page */
+h2{
+  text-align: center;
+  margin:auto;
+}
+
+/* css style settings for all headers in section class called content*/
+section.content h2{
+  text-decoration: underline;
+}
+
+/* css style settings for all images on html page*/
+img{
+  margin: auto;
+  width: 50%;
+  display: block;
+  min-width: 50px;
+  max-width: 500px; 
+  border: 2px;
+  border-style:inset;
+  border-color: goldenrod;
+}
+
+/* css style settings for all horizontal line breaks in html page*/
+hr{
+  background-color: goldenrod;
+  height:2px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-color:cadetblue;
+  border-style: solid;
+}
+
+/* css style settings for all anchor links in html page*/
+a:link    {color:yellow}
+a:hover   {color:orange}
+a:visited {color:black}
+a:active  {color:green}
